@@ -7,8 +7,12 @@ const SeachBox = ({onInputChange}) => {
             <input 
             onChange={(event) => onInputChange(event.target.value) } 
             placeholder="Type Keywords" className="search-input" 
-            />
+        
+        
+        />
         </div>
+        // This is not important change 
+        
     );
 };
 
